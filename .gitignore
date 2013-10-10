@@ -10,7 +10,17 @@ rdoc
 spec/reports
 test/tmp
 test/version_tmp
+
+# Ignore database.
+db/*.sqlite3
+db/*.sqlite3-journal
+db/schema.rb
+
+# Ignore temp and log files.
 tmp
+log/*.log
+Gemfile.lock
+coverage
 
 # YARD artifacts
 .yardoc
