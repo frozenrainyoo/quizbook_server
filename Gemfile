@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
+gem 'acts-as-taggable-on'
+
 gem 'rails-api'
 gem 'rack-cors', :require => 'rack/cors'
 
@@ -36,7 +38,7 @@ gem 'devise'                   # server-side authentication
 gem 'bcrypt-ruby'              # password encryption
 
 # for easy RESTful API controller scaffolding
-gem 'inherited_resources'      
+# gem 'inherited_resources'      
 
 # works out of the box with ember-data
 gem 'active_model_serializers' 
@@ -44,8 +46,6 @@ gem 'active_model_serializers'
 
 gem 'coveralls', require: false
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
